@@ -27,4 +27,14 @@
         android:layout_marginTop="65dp"
         android:text="TextView"
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:text="TextView"
+        android:textSize="50sp" />
 </RelativeLayout>

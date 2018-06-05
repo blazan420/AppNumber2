@@ -23,16 +23,29 @@ public class MainActivity extends AppCompatActivity {
 
         TextView txt1 = (TextView)findViewById(R.id.txt1);
         TextView txt2 = (TextView)findViewById(R.id.txt2);
+        TextView txt3 = (TextView)findViewById(R.id.txt3);
 
-        txt1.setText("My Own Text");
+       /* txt1.setText("My Own Text");
 
         String str1 = "some Value";
 
         StringTokenizer strObject1 = new StringTokenizer(str1);
 
         txt2.setText(strObject1.nextToken());
-        txt1.setText(strObject1.nextToken());
+        txt1.setText(strObject1.nextToken());*/
 
+       String str2 = "This is another text@this is your text@this is my text";
+
+
+
+       // Constructors creates a new instance of a class.
+       StringTokenizer strObject2 = new StringTokenizer(str2, "@");
+
+        txt1.setText(strObject2.nextToken());
+
+        txt2.setText(strObject2.nextToken());
+
+        txt3.setText(strObject2.nextToken() + " -Fine-" );
 
     }
 
