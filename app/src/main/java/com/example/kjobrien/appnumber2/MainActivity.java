@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
 
        // Constructors creates a new instance of a class.
-       StringTokenizer strObject2 = new StringTokenizer(str2, "@");
+       StringTokenizer strObject2 = new StringTokenizer(str2, "@"); //
 
         txt1.setText(strObject2.nextToken());
 
